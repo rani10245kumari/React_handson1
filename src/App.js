@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Buttonone from './Handson1React/Button'
+import { Buttontwo } from './Handson1React/Button'
+// import Propcomp from './Props/propcompone'
 function App() {
   return (
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Styling using functional and Class Component</h1>
+      <Buttonone></Buttonone>
+      <Buttontwo></Buttontwo>
+      {/* <Propcomp></Propcomp> */}
+
+
     </div>
   );
 }
