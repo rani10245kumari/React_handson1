@@ -1,6 +1,7 @@
 import React, { useState, Component } from 'react'
 import Functionnew from './Functioncompo'
 import Classfunction from './Classcompo'
+
 function Buttonone() {
 
     const [count, setCount] = useState(false)
@@ -8,7 +9,7 @@ function Buttonone() {
     return (
         <div className="button1">
             <h1>{count}</h1>
-            <button onClick={() => setCount(!count)}>To See Styling on functional component</button>
+            <button onClick={() => setCount(!count)} className='btn1'>To See Styling On Functional Component</button>
             {count ? <Functionnew></Functionnew> : null}
         </div>
 
@@ -30,8 +31,8 @@ class Buttontwo extends Component {
     render() {
         return (
             <div className='button2'>
-                <button onClick={() => this.setState({ btnValue: !this.state.btnValue })}>class button</button>
-                {this.state.btnValue ? null : <Classfunction />}
+                <button onClick={() => this.setState({ btnValue: !this.state.btnValue })} className='btn2'>To See Styling On Class Component</button>
+                {this.state.btnValue ? <Classfunction /> : null}
 
             </div>
         )
