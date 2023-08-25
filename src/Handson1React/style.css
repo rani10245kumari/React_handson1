@@ -1,27 +1,146 @@
 .one {
     background-color: aqua;
-    border: 2px solid black;
-    border-radius: 15px;
-    height: 400px;
-    width: 600px;
+    border: 2px solid rgb(5, 94, 100);
+    border-radius: 35px;
+    height: 50vh;
+    width: 40vw;
+    position: absolute;
+    top: 44vh;
+    left: 4vw;
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
+    font-weight: 700;
 }
 
 h3 {
-    font-size: 36px;
-    font-weight: 400;
+    font-size: 26px;
+    font-weight: 500;
+    color: rgb(98, 12, 179);
     text-align: center;
 
 }
 
 .two {
-    background-color: rgb(127, 16, 150);
-    border: 2px solid black;
-    border-radius: 15px;
-    height: 400px;
-    width: 600px;
+    background-color: rgb(195, 117, 231);
+    border: 2px solid rgb(5, 94, 100);
+    border-radius: 35px;
+    height: 50vh;
+    width: 40vw;
+    position: absolute;
+    top: 44vh;
+    left: 52vw;
+}
+
+.btn1 {
+    height: 10vh;
+    width: 32vw;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(216, 108, 176);
+    position: absolute;
+    left: 10vw;
+    top: 25vh;
+    border: 2px solid rgb(92, 8, 78);
+    border-radius: 25px;
+    color: rgb(61, 17, 73);
+}
+
+.btn1:hover {
+    background-color: pink;
+}
+
+.btn2 {
+    height: 10vh;
+    width: 32vw;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(216, 108, 176);
+    position: absolute;
+    left: 54vw;
+    top: 25vh;
+    border: 2px solid rgb(92, 8, 78);
+    border-radius: 25px;
+    color: rgb(61, 17, 73);
+}
+
+.btn2:hover {
+    background-color: pink;
+}
+
+@media screen and (min-width:300px) and (max-width:700px) {
+    .main {
+        font-size: 1.5em;
+        text-shadow: 6px 3px 2px blue;
+    }
+
+    .btn1 {
+        height: 10vh;
+        width: 40vw;
+        font-size: 13px;
+    }
+
+
+    .btn2 {
+        height: 10vh;
+        width: 40vw;
+        font-size: 13px;
+    }
+
+    .one {
+        height: 40vh;
+        width: 44vw;
+    }
+
+    h1 {
+        font-size: 14px;
+    }
+
+    h3 {
+        font-size: 13px;
+    }
+
+    .two {
+        height: 40vh;
+        width: 44vw;
+    }
+}
+
+@media screen and (min-width:702px) and (max-width:950px) {
+    .main {
+        font-size: 2.5em;
+    }
+
+    .btn1 {
+        width: 42vw;
+        font-size: 18px;
+        font-weight: 800;
+    }
+
+
+    .btn2 {
+        width: 42vw;
+        font-size: 18px;
+        font-weight: 800;
+    }
+
+    .one {
+        height: 30vh;
+        width: 44vw;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 26px;
+    }
+
+    .two {
+        height: 30vh;
+        width: 44vw;
+    }
 }
