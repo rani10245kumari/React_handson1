@@ -7,7 +7,7 @@ function App() {
   return (
 
     <div className="App">
-      <h1>Styling using functional and Class Component</h1>
+      <h1 className='main'>Styling Using Functional and Class Component</h1>
       <Buttonone></Buttonone>
       <Buttontwo></Buttontwo>
       {/* <Propcomp></Propcomp> */}
