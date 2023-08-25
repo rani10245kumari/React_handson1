@@ -1,3 +1,8 @@
-/* body {
-    background-image: linear-gradient(#00b3b3, #cc0066, #ac3973);
-} */
+body {
+     background-color: rgb(152, 215, 238);
+ }
+
+ .main {
+     font-size: 2.7em;
+     text-shadow: 6px 3px 2px blue;
+ }
